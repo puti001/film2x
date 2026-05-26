@@ -96,6 +96,7 @@ export async function processMultiSegments(file, segments, onLog, onProgress) {
     '-filter_complex', filterComplex,
     '-map', '[outv]',
     '-map', '[outa]',
+    '-crf', '28',        // 提高壓制壓縮率（數字越大檔案越小，28為速度與體積的最佳折衷）
     '-preset', 'ultrafast',
     outputName
   ];

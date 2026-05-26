@@ -184,7 +184,7 @@ function App() {
   return (
     <div style={{ maxWidth: '1000px', margin: '0 auto', width: '100%' }}>
       <header>
-        <h1>🎬 Film2X 影片分割變速室</h1>
+        <h1>🎬 Puti-AI Film2X 影片分割變速室</h1>
         <p>滑動時間軸，隨時按分割，自訂每一段的速度</p>
       </header>
 
